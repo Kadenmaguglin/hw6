@@ -47,7 +47,7 @@ $(document).ready(function(){
       }
 
           $.ajax({
-            url:'http://api.openweathermap.org/data/2.5/weather',
+            url:'https://api.openweathermap.org/data/2.5/weather',
             dataType:'json',
             type:'GET',
             data:{q:city, appid: key, units: 'imperial'},
